@@ -26,7 +26,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 $dbms='mysql';     
 $host='localhost'; 
-$dbName='uniprot_reviewed';    
+$dbName='uniprot';    
 $user='root';      
 $pass='12345';          
 $dsn="$dbms:host=$host;dbname=$dbName";
