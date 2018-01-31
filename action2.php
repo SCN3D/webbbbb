@@ -27,7 +27,7 @@ $seqs2 = explode(",", $seqs);
 $sequence = '';
 foreach ( $seqs2 as $seq) {
 
-	$sequence .= "> custom | \n".$seq."\n";
+	$sequence .= ">  | \n".$seq."\n";
 }
 $output = fopen("sequence.fasta","w") or die("Error creating file");
 fwrite($output,$sequence);
