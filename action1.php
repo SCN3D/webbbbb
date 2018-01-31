@@ -42,6 +42,7 @@ try {
 } catch (PDOException $e) {
     die ("Error!: " . $e->getMessage() . "<br/>");
 }
+print $acs;
 foreach($acs2 as $ac){
 	$sql = "SELECT id, ac, seq FROM entry where ac REGEXP '". $ac."'" ;
 
